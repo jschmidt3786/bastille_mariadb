@@ -1,0 +1,6 @@
+#PKG mariadb105-client mariadb105-server base64
+PKG mariadb105-client mariadb105-server
+SYSRC mysql_enable="YES"
+SERVICE mysql-server start
+CP root /
+CMD /root/mariadb_bootstrap.sh

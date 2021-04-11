@@ -4,3 +4,4 @@ SYSRC mysql_enable="YES"
 SERVICE mysql-server start
 CP root /
 CMD /root/mariadb_bootstrap.sh
+RDR tcp 3306 3306
